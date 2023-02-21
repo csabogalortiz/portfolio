@@ -1,0 +1,114 @@
+#reset-this-root {
+    all: unset;
+}
+
+html * {
+    font-family: 'Work Sans';
+    letter-spacing: 0.02em;
+
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 5rem;
+}
+
+.Container {
+    margin: 0 19em;
+
+}
+
+.secondNavbar {
+    display: flex;
+    justify-content: end;
+    margin: 40px 0;
+}
+
+.contactContainer {
+    transform: rotate(90deg) translateY(-100%);
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 12rem;
+    margin: 8;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heroDash {
+    background-color: white;
+    width: 3px;
+    height: 100px;
+}
+
+.topNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarOptions {
+    gap: 30px;
+    display: flex;
+}
+
+
+.mainParagraph>p {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 183.3%;
+    color: white
+}
+
+.secondHero {
+    display: flex;
+    justify-content: center;
+}
+
+.mainSubtitle {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.HI {
+    width: 40%;
+}
+
+.HIRigth {
+    width: 60%;
+}
+
+.HI>h2 {
+    font-weight: 500;
+    font-size: 10rem;
+    letter-spacing: 0.02em;
+    text-align: right;
+}
+
+.greetingName>p {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    color: #889CD0
+}
